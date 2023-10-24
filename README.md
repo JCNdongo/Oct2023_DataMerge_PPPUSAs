@@ -14,5 +14,8 @@ The period (COVID) 2020 to 2021 is not included since it represents the period w
 
 ## Step 1: Retrieved government contracting data from 2018 to 2019, then from 2022 to 2023
 
-The data are large and were obtained from USASpending.gov and came in multiple (6 to 7) csv files for each year. Each file is large (2GB) and has around 1 million entries with multiple entries per business to document each contract. 
+The data are large and were obtained from USASpending.gov's Award Data Archive (https://www.usaspending.gov/download_center/award_data_archive) and came in multiple (6 to 7) csv files for each year. 
+
+Each file is large (2GB) and has around 1 million entries with multiple entries per business to document each contract. 
+
 I wrote Python code to access the content of each file, filter by "small business" and "USA", then aggregate the data (summed dollar amounts etc...) to only have one row per business. 
