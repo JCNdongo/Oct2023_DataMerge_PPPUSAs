@@ -38,4 +38,6 @@ For each year, I wrote Python code to combine all sub-files into one main csv fi
 4. #### OVERALL RESULT: 101,351 businesses were awarded contracts in 2018, 2019, 2022, and 2023 consecutively (File names: All_2018TO2023_Contracting_manual.csv and All_2018_To_2023_Contracting).
 
 ## Step 4: I identified businesses that were NOT awarded contracts POST-COVID (2022 and 2023). 
-1. I merged csv files of businesses that had been awarded contracts in 2018 and 2019 BUT NOT in 2022 and 2023 (2018_2019_BUT_NOT_2022.csv and 2018_2022_BUT_NOT_2023.csv), removed duplicates and saved the file as 2022_2023_NO_Contracting_manual.csv. 
+1. I merged csv files of businesses that had been awarded contracts in 2018 and 2019 BUT NOT in 2022 and 2023 (2018_2019_BUT_NOT_2022.csv and 2018_2022_BUT_NOT_2023.csv), removed duplicates and saved the file as 2022_2023_NO_Contracting_manual.csv. Then, I cross-referenced with 2023 contracting recipients (which I removed) and saved the file as 2022_2023_NO_Contracting.csv.
+2. In the process, I found that ... businesses WERE NOT awarded contracts in 2018, 2019, and 2022, BUT RECEIVED CONTRACTS in 2023. I saved those in a separate csv file (NoContracts2018to2022_ONLY2023.csv).
+3. ##### OVERALL RESULT (a): I found that 13,477 businesses WERE NOT awarded contracts in 2022 and 2023 (2022_2023_NO_Contracting.csv).
