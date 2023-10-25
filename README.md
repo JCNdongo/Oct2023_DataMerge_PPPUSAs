@@ -32,4 +32,4 @@ For each year, I wrote Python code to combine all sub-files into one main csv fi
 
 ## Step 3: I identified businesses based on step 1 above
 
-1. I merged contracting All_2018_Contracting.csv and All_2019_Contracting.csv into one file (All_2018TO2019_Contracting_manual.csv) containing ONLY the businesses that received federal contracts those two years in a row. RESULT: 29,587 businesses were NOT awarded contracts from 2018 to 2019; 
+1. I merged contracting All_2018_Contracting.csv and All_2019_Contracting.csv into one file (All_2018TO2019_Contracting_manual.csv) containing ONLY the businesses that received federal contracts those two years in a row. RESULT: 29,587 businesses were NOT awarded contracts from 2018 to 2019; 198,187 businesses were awarded contracts in 2018 and 2019.
