@@ -24,8 +24,12 @@ I wrote Python code to access the content of each file, filter by "small busines
 
 ## Step 2: For each year, I combined the different sub files into one main file with all the contracting data for that year.
 
-For each year, I wrote Python code to combine all sub-files into one main csv file with all the contracting data. 
+For each year, I wrote Python code to combine all sub-files into one main csv file with all the contracting data resulting in the following files:
+1. All_2018_Contracting.csv
+2. All_2019_Contracting.csv
+3. All_2022_Contracting.csv
+4. All_2023_Contracting.csv
 
 ## Step 3: I identified businesses based on step 1 above
 
-1. I wrote Python code to merge contracting csv files for 2018 and 2019 into one file containing ONLY the businesses that received federal contracts those two years in a row. 
+1. I merged contracting All_2018_Contracting.csv and All_2019_Contracting.csv into one file (All_2018TO2019_Contracting_manual.csv) containing ONLY the businesses that received federal contracts those two years in a row. 
